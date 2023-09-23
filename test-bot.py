@@ -8,15 +8,6 @@ from bot.misc import TgKeys
 
 
 
-"""
-ЛИС ПИДОРАС
-"""
-
-
-
-
-
-
 storage = MemoryStorage()
 bot = Bot(token = TgKeys.TOKEN)
 dp = Dispatcher(bot,
